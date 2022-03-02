@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'brushking';
+    src: url(./fonts/BrushKing-MVVPp.otf);
+}
+@font-face {
+    font-family: 'heyoctober';
+    src: url(./fonts/HeyOctober-8M8oZ.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kanit:wght@300;400;500&family=Varela+Round&display=swap');
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+/*....................... NAVBAR ........................ */
+
+::placeholder { 
+    color: 000000;
+    opacity: 0.7;
+    font-family:'Short Stack', cursive;
+    font-size: 16px;
+  }
+
+nav{
+    
+    font-family: 'Short Stack', cursive;
+    background: #00237D;
+    height: 63px;
+    width: 100%;
+}
+
+
+
+.nav-list{
+    margin: 0;
+    padding: 1rem 0;
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.li-item{
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.li-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.search_box{
+    height: 30px;
+    width: 280px;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 12px;
+}
+
+.navbar{
+    position: fixed;
+    box-shadow: 2px 2px 25px 0px #0000004d;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXX navbar-end XXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+
+body{
+    background: url(./assets/h_image.png);
+    background-size: contain;
+    width: 100%;
+    height:100vh;
+    /* background-position: center center; */
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+/* div.section1{
+    width: 100%;
+    height: 60px;
+    
+    background-color: red;
+    
+} */
+
+/* for navigate to teams */
+.sec-div{
+    width: 100%;
+    height: 100px;
+    margin-top: 772px;
+}
+
+section div{
+    width: 100%;
+    height: 140px;
+    margin-top: 9px;
+}
+
+section div h1{
+    text-align: center;
+    font-family: brushking;
+    color: #00237D;
+    font-size: 45px;
+}
+
+
+/* ................CARDS.............. */
+.grid{
+    margin: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+    justify-items: center;
+}
+div a article img{
+    height: 122px;
+}
+.grid > a article{
+    border: none;
+    box-shadow: 2px 2px 69px 4px #00237D4d;
+    border-radius: 20px;
+    text-align: center;
+    width: 250px;
+    height: 310px;
+    padding: 24px;
+    /* margin-top: 46px; */
+    transition: transform .3s;
+}
+
+.grid > a{
+    text-decoration: none;
+}
+
+.team-title{
+    margin-top: 36px;
+    color: #00237D;
+    /* font-family: 'Kanit', sans-serif; */
+    /* font-family: heyoctober; */
+    font-family: 'Kanit', sans-serif;
+    font-size: 27px;
+    /* font-weight: 100; */
+}
+
+/* .......Footer.......... */
+footer{
+    background-color: #00237D;
+    width: 100%;
+    height: 140px;
+    margin-top: 186px;
+}
+.center{
+    text-align: center;
+    padding-top: 95px;
+    color: white;
+}
+footer div a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
