@@ -1,0 +1,149 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Short+Stack&display=swap');
+
+@font-face {
+    font-family: 'brushking';
+    src: url(../fonts/BrushKing-MVVPp.otf);
+}
+
+
+::-webkit-input-placeholder {
+    font-style: italic;
+ }
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+
+.bn-back{
+    height: 65px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    padding: 13px 82px;
+    margin-top: 32px;
+}
+
+.in-bn{
+    width: 128px;
+    background-color: #ffd400;
+    box-shadow: 2px 2px 9px 2px #ffd400c7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Short Stack', cursive;
+    font-size: 19px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 49px;
+}
+
+.container{
+    /* background-color: #5d7fd6; */
+    box-shadow: 2px 2px 72px 4px #00000029;
+    border: none;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.f-img{
+    height: 460px;
+    width: 480px;
+    background-color: #ffd400;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.f-pannel{
+    height: 460px;
+    width: 550px;
+    background-color: white;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+}
+
+#form-img{
+    height: 460px;
+}
+
+
+.f-pannel > h1{
+    font-size: 36px;
+    font-family: brushking;
+    color: black;
+    text-align: center;
+    margin-top: 42px;
+}
+
+.in-field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: pink; */
+    height: 33px;
+    margin-bottom: 20px;
+}
+
+.in-field > label{
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+   
+}
+
+.p-des{
+    height: 230px;
+    width: 389px;
+    margin: auto;
+    /* background-color: red; */
+    padding: 32px;
+    margin-top: 53px;
+}
+
+.p-des > ul{
+    list-style: none;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+}
+
+.p-des > ul li{
+    margin-bottom: 2px;
+}
+
+
+
+
+
