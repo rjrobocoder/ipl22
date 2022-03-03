@@ -51,6 +51,7 @@ body{
     font-family: 'Short Stack', cursive;
     font-size: 19px;
     padding: 5px;
+    cursor: pointer;
 
 }
 
@@ -158,9 +159,6 @@ body{
 #btn-submit{
     height: 39px;
     width: 233px;
-
-
-
     background-color: #5d7fd6;
     box-shadow: 2px 2px 62px 18px #5d7fd64d;
     color: white;
@@ -169,6 +167,7 @@ body{
     font-family: 'Fredoka', sans-serif;
     font-size: 19px;
     padding: 5px;
+    cursor: pointer;
 }
 
 #tm-select{
